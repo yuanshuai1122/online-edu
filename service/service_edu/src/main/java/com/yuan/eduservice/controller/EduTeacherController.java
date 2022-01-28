@@ -38,7 +38,7 @@ public class EduTeacherController {
     // restful风格
     @ApiOperation(value = "所有讲师列表")
     @GetMapping("/findAll")
-    public com.yuan.commonutils.R findAllTeacher() {
+    public R findAllTeacher() {
         // 调用service的方法实现查询所有的操作
         List<EduTeacher> list = eduTeacherService.list(null);
         return R.ok().data("items", list);
@@ -107,6 +107,9 @@ public class EduTeacherController {
             // 构造条件
             wrapper.le("gmt_create", end);
         }
+
+        // 排序
+        wrapper.orderByDesc("gmt_create");
 
         // 调用方法条件查询带分页
         eduTeacherService.page(pageTeacher,wrapper);
