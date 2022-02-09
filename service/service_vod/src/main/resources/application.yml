@@ -1,0 +1,22 @@
+# 服务端口
+server:
+  port: 8003
+# 服务名
+spring:
+  application:
+    name: service_vod
+  # 环境
+  profiles:
+    active: dev
+  # 最大上传单个文件大小:默认1M
+  servlet:
+    multipart:
+      max-file-size: 10240MB
+      max-request-size: 10240MB
+
+aliyun:
+  vod:
+    file:
+      keyid: LTAI5tA9HQT7YFC47qjQwHRw
+      keysecret: 2sSNV7rtTNctgOyg5O4J4RuGS6uYnp
+
