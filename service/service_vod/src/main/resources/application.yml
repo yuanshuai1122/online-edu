@@ -4,7 +4,11 @@ server:
 # 服务名
 spring:
   application:
-    name: service_vod
+    name: service-vod
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
   # 环境
   profiles:
     active: dev

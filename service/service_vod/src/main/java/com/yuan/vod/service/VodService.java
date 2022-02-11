@@ -9,5 +9,5 @@ public interface VodService {
     String uploadVideoAly(MultipartFile file);
 
     //删除多个阿里云视频的方法
-    void removeMoreAlyVideo(List videoIdList);
+    void removeMoreAlyVideo(List<String> videoIdList);
 }
