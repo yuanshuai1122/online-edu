@@ -159,7 +159,7 @@
 
         <!--可以输出项目中的debug日志，包括mybatis的sql日志-->
 
-        <logger name="com.guli" level="INFO" />
+        <logger name="com.yuan" level="INFO" />
 
 
         <!--

@@ -16,6 +16,6 @@ aliyun:
   oss:
     file:
       endpoint: oss-cn-beijing.aliyuncs.com
-      keyid: LTAI5tA9HQT7YFC47qjQwHRw
-      keysecret: 2sSNV7rtTNctgOyg5O4J4RuGS6uYnp
+      keyid: nihaomiyao
+      keysecret: nihaomima
       bucketname: yuan-online-edu

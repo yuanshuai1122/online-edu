@@ -1,8 +1,8 @@
 server:
-  port: 8004
+  port: 8006
 spring:
   application:
-    name: service-cms
+    name: service-ucenter
   cloud:
     nacos:
       discovery:
@@ -13,11 +13,6 @@ spring:
     url: jdbc:mysql://localhost:3306/yuan?serverTimezone=GMT%2B8
     username: root
     password: 123456
-
-# 返回json的全局时间格式
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
   # redis
   redis:
     host: 127.0.0.1
@@ -32,10 +27,11 @@ spring:
         # 最大阻塞等待时间（负数表示没限制）
         max-idle: 5
         min-idle: 0
-# 配置mapper xml的文件路径
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
 mybatis-plus:
-  mapper-locations: classpath:com/yuan/cmsservice/mapper/xml/*.xml
-  # mybatis日志
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
+  mapper-locations: classpath:com/yuan/educenter/mapper/xml/*.xml
