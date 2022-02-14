@@ -23,10 +23,11 @@ public class MsmServiceImpl implements MsmService {
     //发送短信的方法
     @Override
     public boolean send(Map<String, Object> param, String phone) {
-        if(StringUtils.isEmpty(phone)) return false;
+        if(StringUtils.isEmpty(phone))
+            return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "nihaomiyao", "nihaomima");
+                DefaultProfile.getProfile("default", "LTAI5tA9HQT7YFC47qjQwHRw", "2sSNV7rtTNctgOyg5O4J4RuGS6uYnp");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定的参数
@@ -34,7 +35,7 @@ public class MsmServiceImpl implements MsmService {
         //request.setProtocol(ProtocolType.HTTPS);
         request.setSysMethod(MethodType.POST);
         request.setSysDomain("dysmsapi.aliyuncs.com");
-        request.setSysVersion("2022-02-13");
+        request.setSysVersion("2017-05-25");
         request.setSysAction("SendSms");
 
         //设置发送相关的参数
