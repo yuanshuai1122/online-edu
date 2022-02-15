@@ -1,9 +1,14 @@
 package com.yuan.eduservice.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yuan.eduservice.entity.EduCourse;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yuan.eduservice.entity.frontvo.CourseFrontVo;
+import com.yuan.eduservice.entity.frontvo.CourseWebVo;
 import com.yuan.eduservice.entity.vo.CourseInfoVo;
 import com.yuan.eduservice.entity.vo.CoursePublishVo;
+
+import java.util.Map;
 
 /**
  * <p>
@@ -29,5 +34,11 @@ public interface EduCourseService extends IService<EduCourse> {
 
     //删除课程
     void removeCourse(String courseId);
+
+    //1 条件查询带分页查询课程前台
+    Map<String, Object> getCourseFrontList(Page<EduCourse> pageCourse, CourseFrontVo courseFrontVo);
+
+    //根据课程id，编写sql语句查询课程信息
+    CourseWebVo getBaseCourseInfo(String courseId);
 }
 
