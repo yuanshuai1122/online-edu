@@ -1,17 +1,4 @@
-2022-02-15 14:39:33.474 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 14:39:33.481 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 14:54:31.511 [YuanHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - YuanHikariPool - Retrograde clock change detected (housekeeper delta=29s688ms), soft-evicting connections from pool.
-2022-02-15 15:07:20.917 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 15:07:20.922 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 16:09:20.096 [YuanHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - YuanHikariPool - Retrograde clock change detected (housekeeper delta=29s775ms), soft-evicting connections from pool.
-2022-02-15 16:46:32.824 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 16:46:32.829 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 20:46:09.673 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 20:46:09.677 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 22:31:37.564 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 22:31:37.569 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 23:16:35.404 [YuanHikariPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - YuanHikariPool - Retrograde clock change detected (housekeeper delta=29s817ms), soft-evicting connections from pool.
-2022-02-15 23:17:57.307 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 23:17:57.315 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 23:45:54.750 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2022-02-15 23:45:54.754 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-17 15:57:36.935 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-17 15:57:36.940 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-17 16:16:31.500 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-02-17 16:16:31.514 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
