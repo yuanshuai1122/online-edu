@@ -20,7 +20,7 @@ import java.util.HashMap;
  * @author: yyss
  * @create: 2022-02-14 22:43
  **/
-@CrossOrigin
+
 @Controller  //只是请求地址，不需要返回数据
 @RequestMapping("/api/ucenter/wx")
 public class WxApiController {

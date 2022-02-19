@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
  **/
 @RestController
 @RequestMapping("/educms/banneradmin")
-@CrossOrigin
+
 public class BannerAdminController {
 
     // TODO 后台banner增删改查的前端页面没写
