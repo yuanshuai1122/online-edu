@@ -6,10 +6,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-/**
- * @author: yyss
- * @create: 2022-02-15 22:06
- **/
 @Component
 @FeignClient("service-edu")
 public interface EduClient {

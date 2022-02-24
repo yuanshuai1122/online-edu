@@ -45,3 +45,7 @@ spring:
         id: service-vod
         uri: lb://service-vod
         predicates: Path=/eduvod/**
+      routes[8]:
+        id: service-ucenter
+        uri: lb://service-ucenter
+        predicates: Path=/educenter/**
